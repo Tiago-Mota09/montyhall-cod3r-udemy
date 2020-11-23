@@ -38,15 +38,15 @@ import Door from "./components/Door";
 export default {
   name: "MountHall",
   components: {
-    Door
+    Door,
   },
   data() {
     return {
       started: false,
       portsAmount: 3,
-      selectedPort: null
+      selectedPort: null,
     };
-  }
+  },
 };
 </script>
 
@@ -69,6 +69,7 @@ body {
   background-color: #0006;
   padding: 20px;
   margin-bottom: 60px;
+  border-radius: 5px;
 }
 .form {
   display: flex;
